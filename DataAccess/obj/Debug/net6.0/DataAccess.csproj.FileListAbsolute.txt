@@ -1,0 +1,30 @@
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\ASUS\Downloads\PRN231_Project-master (1)\PRN231_Project-master\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\bin\Debug\net6.0\DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\bin\Debug\net6.0\BusinessObject.dll
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\bin\Debug\net6.0\BusinessObject.pdb
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+C:\Users\ASUS\OneDrive\Desktop\project_Canhan\1\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
