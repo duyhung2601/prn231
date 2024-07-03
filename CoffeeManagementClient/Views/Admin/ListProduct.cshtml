@@ -1,0 +1,98 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "ProductList";
+}
+
+<div class="container mt-5">
+    <div class="row tm-content-row">
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-products">
+                <div class="tm-product-table-container">
+                    <input type="text" placeholder="Search.." value="" id="productNameSearch">
+                    <button onclick="ShowAllProductsForButtonSearch()" class="btn btn-danger">Search</button>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">PRODUCT NAME</th>
+                                <th scope="col">DESCRIPTION</th>
+                                <th scope="col">PRICE</th>
+                                <th scope="col">WEIGHT</th>
+                                <th scope="col">AMMOUNT</th>
+                                <th scope="col">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var pro in ViewBag.products)
+                            {
+                                <tr>
+                                    <td class="tm-product-name"><a href="/Admin/EditProductForm/@pro.Id">@pro.Name</a></td>
+                                    <td>@pro.Description</td>
+                                    <td>@pro.Price</td>
+                                    <td>@pro.Weight</td>
+                                    <td>@pro.Ammount</td>
+                                    <td>
+                                        <a href="/Admin/DeleteProduct/@pro.Id" class="tm-product-delete-link">
+                                            <i class="far fa-trash-alt tm-product-delete-icon"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- table container -->
+                <a href="/Admin/AddProductForm"
+                   class="btn btn-primary btn-block text-uppercase mb-3">Add new product</a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 tm-block-col">
+            <div class="tm-bg-primary-dark tm-block tm-block-product-categories">
+                <h2 class="tm-block-title">Product Categories</h2>
+                <div class="tm-product-table-container">
+                    <table class="table tm-table-small tm-product-table">
+                        <tbody>
+                            @foreach (var cate in ViewBag.categories)
+                            {
+                                <tr>
+                                    <td class="tm-product-name">@cate.CategoryName</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <!-- table container -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function)(){
+        ShowAllProducts();
+        function ShowAllProducts() {
+            $(table tbody).html("");
+            $ajax({
+                url: "https://localhost:7250/api/Product/GetAllProduct",
+                type: "get",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (result, status, xhr) {
+                    $.each(result, function (index, value) {
+                        $("tbody").append($("<tr>"));
+                        appendElement = $("tbody tr").last();
+                        appendElement.append($("<td>").html(value["Name"]));
+                        appendElement.append($("<td>").html(value["Description"]));
+                        appendElement.append($("<td>").html(value["Price"]));
+                        appendElement.append($("<td>").html(value["Weight"]));
+                        appendElement.append($("<td>").html(value["Ammount"]));
+                        appendElement.append($("<td>").htm1("<a href=\"Admin/DeleteProduct?id=" +
+                            value["Id"] + "\"><i class=\"far fa-trash-alt tm-product-delete-icon\"></i></a>"));
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr)
+                }
+            });
+        }
+    }
+</script>
